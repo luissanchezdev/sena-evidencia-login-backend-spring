@@ -10,6 +10,7 @@ import java.util.ArrayList;
 import java.util.Optional;
 
 @RestController
+@CrossOrigin(origins = "*")
 @RequestMapping("/api/v1/usuarios")
 public class UsuarioController {
 
